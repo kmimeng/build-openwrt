@@ -29,7 +29,7 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-svn co https://github.com/ysc3839/openwrt-minieap  package/luci-app-minieap
+svn co https://github.com/ysc3839/openwrt-minieap  package/trunk/luci-app-minieap
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
